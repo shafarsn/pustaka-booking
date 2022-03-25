@@ -13,8 +13,7 @@ class Home extends CI_Controller
  ];
  //jika sudah login dan jika belum login
  if ($this->session->userdata('email')) {
- $user = $this->ModelUser->cekData(['email' => $this->session-
->userdata('email')])->row_array();
+ $user = $this->ModelUser->cekData(['email' => $this->session->userdata('email')])->row_array();
  $data['user'] = $user['nama'];
  $this->load->view('templates/templates-user/header', $data);
  $this->load->view('buku/daftarbuku', $data);
@@ -28,3 +27,4 @@ class Home extends CI_Controller
  $this->load->view('templates/templates-user/footer', $data);
  }
  }
+}
