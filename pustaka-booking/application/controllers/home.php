@@ -54,3 +54,4 @@ public function detailBuku()
  $this->load->view('templates/templates-user/footer');
  
 }
+}
