@@ -6,7 +6,7 @@
  <!-- Tampilkan semua produk -->
  <div class="row">
  <!-- looping products -->
- <?php foreach ($buku as $buku) { ?>
+ <?php foreach ($buku as $buku)  ?>
  <div class="col-md-2 col-md-3">
  <div class="thumbnail" style="height: 370px;">
  <img src="<?php echo base_url(); ?>assets/img
@@ -49,4 +49,3 @@ if ($buku->stok < 1) {
  </div>
  </div>
  </div>
-}
