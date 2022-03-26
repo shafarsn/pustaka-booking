@@ -14,8 +14,7 @@
  <div class="caption">
  <h5 style="min-height:30px;"><?= $buku->pengarang ?></h5>
  <h5><?= $buku->penerbit ?></h5>
- <h5><?= substr($buku-
->tahun_terbit, 0, 4) ?></h5>
+ <h5><?= substr($buku->tahun_terbit, 0, 4) ?></h5>
 <?= $this->session->flashdata('pesan'); ?>
  
  <div style="padding: 25px;">
