@@ -12,8 +12,7 @@
  <img src="<?php echo base_url(); ?>assets/img
 /upload/<?= $buku->image; ?>" style="max-width:100%; maxheight: 100%; height: 200px; width: 180px">
  <div class="caption">
- <h5 style="min-height:30px;"><?= $buku-
->pengarang ?></h5>
+ <h5 style="min-height:30px;"><?= $buku->pengarang ?></h5>
  <h5><?= $buku->penerbit ?></h5>
  <h5><?= substr($buku-
 >tahun_terbit, 0, 4) ?></h5>
