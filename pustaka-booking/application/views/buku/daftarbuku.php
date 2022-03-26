@@ -49,3 +49,4 @@ if ($buku->stok < 1) {
  </div>
  </div>
  </div>
+}
